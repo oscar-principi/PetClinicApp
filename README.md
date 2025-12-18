@@ -1,6 +1,6 @@
 PetClinic App
 
-#Descripcion: Sistema de gestion de veterinario (ABML y reportes) desarrollado con C/C++, Rlutil para la interfaz, y sistema de archivos para persistencia.
+#Descripcion: Sistema de gestion de veterinaria (ABML y reportes) desarrollado con C/C++, Rlutil para la interfaz, y sistema de archivos para persistencia.
 
 #Diseño: Diseño y modelado con UML 
 
