@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\AppManager.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Archivo.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Cliente.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ClienteArchivo.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ClienteManager.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Configuracion.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Consultas.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ConsultasArchivo.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ConsultasManager.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Fecha.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\FechaHora.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Funciones.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Hora.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Interfaz.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Mascota.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\MascotaArchivo.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\MascotaManager.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Persona.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Reporte.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ReporteArchivo.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ReporteManager.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Veterinario.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\VeterinarioArchivo.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\VeterinarioManager.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\AppManager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Archivo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Cliente.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ClienteArchivo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ClienteManager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Configuracion.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Consultas.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ConsultasArchivo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ConsultasManager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Fecha.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\FechaHora.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Funciones.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Hora.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Interfaz.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Mascota.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\MascotaArchivo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\MascotaManager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Persona.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Reporte.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ReporteArchivo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ReporteManager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\rlutil.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Veterinario.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\VeterinarioArchivo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\VeterinarioManager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\clientes.dat" />
+    <None Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\consultas.bak" />
+    <None Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\mascotas.bak" />
+    <None Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\mascotas.dat" />
+    <None Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\proyectoFilnalV5.0.0Prueba.cbp" />
+    <None Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\proyectoFilnalV5.0.0Prueba.depend" />
+    <None Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\proyectoFilnalV5.0.0Prueba.layout" />
+    <None Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\veterinarios.bak" />
+    <None Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\veterinarios.dat" />
+  </ItemGroup>
+</Project>

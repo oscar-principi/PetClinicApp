@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>18.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{aebe38a1-8519-45e7-ae17-2b0e679e9fe3}</ProjectGuid>
+    <RootNamespace>PetClinicApp</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\AppManager.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Archivo.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Cliente.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ClienteArchivo.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ClienteManager.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Configuracion.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Consultas.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ConsultasArchivo.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ConsultasManager.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Fecha.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\FechaHora.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Funciones.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Hora.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Interfaz.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\main.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Mascota.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\MascotaArchivo.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\MascotaManager.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Persona.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Reporte.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ReporteArchivo.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ReporteManager.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Veterinario.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\VeterinarioArchivo.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\VeterinarioManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\AppManager.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Archivo.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Cliente.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ClienteArchivo.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ClienteManager.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Configuracion.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Consultas.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ConsultasArchivo.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ConsultasManager.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Fecha.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\FechaHora.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Funciones.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Hora.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Interfaz.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Mascota.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\MascotaArchivo.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\MascotaManager.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Persona.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Reporte.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ReporteArchivo.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\ReporteManager.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\rlutil.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\Veterinario.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\VeterinarioArchivo.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\VeterinarioManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\clientes.dat" />
+    <None Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\consultas.bak" />
+    <None Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\mascotas.bak" />
+    <None Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\mascotas.dat" />
+    <None Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\proyectoFilnalV5.0.0Prueba.cbp" />
+    <None Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\proyectoFilnalV5.0.0Prueba.depend" />
+    <None Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\proyectoFilnalV5.0.0Prueba.layout" />
+    <None Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\veterinarios.bak" />
+    <None Include="..\..\..\..\OneDrive\Escritorio\Pet-Clinic-App\ProyectoFinalLabo-main\ProyectoFinalLabo-I\Pet-Clinic-AppV.8.0.0\veterinarios.dat" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

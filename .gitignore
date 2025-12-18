@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build folders
+x64/
+Debug/
+Release/
+out/
+build/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# Otros
+*.log
