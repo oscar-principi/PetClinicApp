@@ -1,10 +1,31 @@
-PetClinic App
+PetClinic App 🐾
 
-#Descripcion: Sistema de gestion de veterinaria (ABML y reportes) desarrollado con C/C++, Rlutil para la interfaz, y sistema de archivos para persistencia.
+Sistema integral para la gestión de clínicas veterinarias. Esta aplicación permite administrar el flujo completo de una veterinaria, desde el registro de pacientes hasta la generación de reportes detallados, la solicitud de turnos, utilizando un sistema de persistencia basado en archivos.
 
-#Diseño: Diseño y modelado con UML 
+📋 Funcionalidades
+Gestión ABML (CRUD): Control total de Mascotas, Dueños, Veterinarios y Consultas.
 
-#Herramientas: Visual Studio Community
+Sistema de Reportes: Generación de estadísticas y listados filtrados para la toma de decisiones.
+
+Persistencia de Datos: Implementación de un sistema de archivos para garantizar la persistencia de la información.
+
+Interfaz de Consola Dinámica: Uso de la librería Rlutil para mejorar la experiencia de usuario.
+
+🏗️ Diseño y Arquitectura
+El proyecto fue concebido siguiendo principios de ingeniería de software para asegurar un código limpio y escalable:
+
+Modelado UML: Estructura de clases y relaciones diseñada previamente para optimizar la jerarquía de objetos.
+
+Modularización: Separación clara entre la lógica de negocio, la gestión de archivos y la interfaz de usuario.
+
+Manejo de Archivos: Uso de archivos binarios para la lectura y escritura de registros en archivos.
+
+🛠️ Herramientas
+Lenguaje: C/C++
+
+Interfaz: Rlutil (Librería para manejo de consola)
+
+IDE: Visual Studio Community
 
 
 #Menu Principal
