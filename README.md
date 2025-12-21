@@ -1,4 +1,4 @@
-PetClinic App 🐾
+PetClinic App 🐾 App Consola-Escritorio
 
 Sistema integral para la gestión de clínicas veterinarias. Desarrollada como Proyecto Final Integrador para la materia Programación II. Esta aplicación permite administrar el flujo completo de una veterinaria, desde el registro de pacientes hasta la generación de reportes detallados, la solicitud de turnos, utilizando un sistema de persistencia basado en archivos.
 
